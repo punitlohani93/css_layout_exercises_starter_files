@@ -1,0 +1,58 @@
+ * {
+  box-sizing: border-box;
+ }
+.container {
+	font-size: 0;
+}
+.top {
+
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+	font-size: 0;
+	
+}
+.bottom {
+
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+	font-size: 0;
+
+}
+.up {
+	width: 50%;
+	font-size: 0;
+	  display: inline-block;
+
+}
+.up, .one-third {
+	border: 1px solid black;
+	display: inline-block;
+}
+.green {
+	background-color: green;
+	height: 200px;
+}
+.blue {
+	background-color: blue;
+	height: 200px;
+}
+.up {
+}
+.display-inline {
+	display: inline-block;
+}
+.grey {
+	background-color: grey;
+}
+.black {
+	background-color: black;
+}
+.yellow {
+	background-color: yellow;
+}
+.one-third{
+	width: 33.33%;
+	height: 300px;
+}
