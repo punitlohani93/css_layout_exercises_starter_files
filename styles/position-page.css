@@ -16,6 +16,10 @@ body.position-exercise {
 nav {
 	background-color: #808080;
 	display: flex;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
@@ -53,7 +57,7 @@ main {
 .green-box {
 	border: 10px dotted #224408;
 	position: relative;
-	margin-top: 100px;
+	margin-top: 200px;
 	width: 600px;
 	height: 300px;
 	display: inline-block;
